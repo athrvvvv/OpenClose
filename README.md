@@ -12,7 +12,7 @@ An application to open and close apps in windows using python packages such as *
 git clone https://github.com/athrvvvv/OpenClose.git
 cd OpenClose
 pip install -r requirements.txt
-pyinstaller --hidden-import 'AppOpener' --onefile "main.py"
+pyinstaller pyinstaller --name OpenClose --hidden-import 'AppOpener' --onefile --icon=icon.ico 'main.py'
 ```
 After the above steps, you may find the application in `dist` folder ✅
 
